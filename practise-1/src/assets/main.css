@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* custom classes / id for specific functionality */
+
+#showNavbarOptions {
+  top: 9%;
+}
+
