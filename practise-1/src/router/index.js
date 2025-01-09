@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import IntroductionView from '@/views/IntroductionView.vue'
 import MenuView from '@/views/MenuView.vue'
-import Project1View from '@/views/project1View.vue'
+import Project1View from '@/views/Project1View.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),

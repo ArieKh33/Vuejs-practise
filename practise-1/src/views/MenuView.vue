@@ -16,7 +16,7 @@ const project1hover = ref(false)
      <h1 class="text-5xl mb-4 border-b border-black">The mini projects</h1>
      <div class="flex flex-col ml-5">
       <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/project1">1. Using api's</RouterLink>
-      <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/">2. PLACEHOLDER</RouterLink>
+      <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/">2. CRUD application</RouterLink>
       <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/">3. PLACEHOLDER</RouterLink>
       <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/">4. PLACEHOLDER</RouterLink>
      </div>
