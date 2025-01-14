@@ -9,7 +9,7 @@ import { ref } from 'vue'
   <main>
     <article>
       <section class="grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-2 mx-10">
-        <div class="bg-slate-100 mt-5 p-2">
+        <div class="bg-slate-100 mt-5 p-2 rounded">
           <h1 class="text-2xl border-black border-b">
             Introduction
           </h1>
@@ -18,7 +18,7 @@ import { ref } from 'vue'
           </p>
         </div>
 
-        <div class="bg-slate-100 mt-5 p-2">
+        <div class="bg-slate-100 mt-5 p-2 rounded">
           <h1 class="text-2xl border-black border-b text-center">
             1. Creating a post
           </h1>
@@ -29,7 +29,7 @@ import { ref } from 'vue'
       </section>
 
       <section class="mx-10 mt-4">
-        <div class="bg-slate-100 p-2">
+        <div class="bg-slate-100 p-2 rounded">
           <h1 class="text-2xl border-black border-b  mb-3">2. Read</h1>
           <table>
             <thead>
