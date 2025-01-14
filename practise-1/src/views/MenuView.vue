@@ -11,17 +11,15 @@ const project1hover = ref(false)
 
 <template>
 
-  <article class="grid md:grid-cols-2 md:gap-6 md:mx-4 mt-4">
+  <article class="grid md:grid-cols-2 md:gap-6 md:mx-7 mt-4 text-center md:text-left">
     <section>
      <h1 class="text-5xl mb-4 border-b border-black">The mini projects</h1>
-     <div class="flex flex-col ml-5">
-      <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/project1">1. Using api's</RouterLink>
-      <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/">2. CRUD application</RouterLink>
-      <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/">3. PLACEHOLDER</RouterLink>
-      <RouterLink class="text-4xl mb-2 hover:text-gray-600" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/">4. PLACEHOLDER</RouterLink>
+     <div class="flex flex-col">
+      <RouterLink class="text-4xl mb-2 rounded p-1 bg-slate-200 hover:text-white hover:bg-blue-950" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/project1">1. Using api's</RouterLink>
+      <RouterLink class="text-4xl mb-2 rounded p-1 bg-slate-200 hover:text-white hover:bg-blue-950" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/project2">2. Getting familiar with ref</RouterLink>
+      <RouterLink class="text-4xl mb-2 rounded p-1 bg-slate-200 hover:text-white hover:bg-blue-950" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/project3">3. CRUD with JSON</RouterLink>
+      <RouterLink class="text-4xl mb-2 rounded p-1 bg-slate-200 hover:text-white hover:bg-blue-950" @mouseenter="project1hover = true" @mouseleave="project1hover = false" to="/">4. PLACEHOLDER</RouterLink>
      </div>
-     
-
     </section>
 
     <section>
